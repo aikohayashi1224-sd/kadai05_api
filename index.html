@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Your Favorite Movie</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🎬 Find Your Favorite Movie</h1>
+            <p class="subtitle">映画情報・配信・パッケージ・図書館を丸ごとサーチ</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="movieTitle" placeholder="映画のタイトルを入力（例：国宝）">
+            <button id="searchBtn">検索する</button>
+        </div>
+
+        <div id="resultArea" style="display: none;">
+            <div class="main-layout">
+                <div class="card movie-card">
+                    <h2>🎥 映画概要</h2>
+                    <div id="movieOverview"></div>
+                </div>
+
+                <div class="side-layout">
+                    <div class="card">
+                        <h2>🚀 オンライン視聴</h2>
+                        <div id="movieProviders" class="btn-group"></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>💿 パッケージ検索</h2>
+                        <div id="movieRakuten" class="btn-group"></div>
+                    </div>
+
+                    <div class="card library-card">
+                        <h2>🏢 地元の図書館在庫状況</h2>
+                        <div id="movieLibrary"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
