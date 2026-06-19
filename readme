@@ -6,7 +6,7 @@ Find Your Favorite Movie
 - TMDb API（映画情報の総合取得）、Google Books API（ISBN取得）、カーリルAPI（図書館蔵書・在庫の照会）という3つのAPIを使用。
 
 ## ③アプリのデプロイURL
-デプロイしている場合はURLを記入（任意）
+https://aikohayashi1224-sd.github.io/kadai05_api/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 
